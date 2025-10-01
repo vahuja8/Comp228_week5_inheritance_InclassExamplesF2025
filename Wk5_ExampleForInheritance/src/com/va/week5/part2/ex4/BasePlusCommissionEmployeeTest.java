@@ -1,24 +1,16 @@
-package com.va.week5.part2.ex3;
+package com.va.week5.part2.ex4;
 
-// Fig. 9.9: BasePlusCommissionEmployeeTest.java
-// BasePlusCommissionEmployee test program.
+// BasePlusCommissionEmployeeTest.java
+// Testing class BasePlusCommissionEmployee.
 
-public class BasePlusCommissionEmployeeTest 
+public class BasePlusCommissionEmployeeTest
 {
    public static void main(String[] args) 
    {
       // instantiate BasePlusCommissionEmployee object
-    /*  BasePlusCommissionEmployee employee = 
-         new BasePlusCommissionEmployee(
-         "Bob", "Lewis", "333-33-3333", 5000, .04, 300);
-      */
-	   
       BasePlusCommissionEmployee employee = 
-    	         new BasePlusCommissionEmployee(
-    	         "Bob", "Lewis", "",22.33, 0.25, -0.25);
-      
-      
-      
+         new BasePlusCommissionEmployee(
+            "Bob", "Lewis", "333-33-3333", 5000, .04, 300);
       
       // get base-salaried commission employee data
       System.out.println(
